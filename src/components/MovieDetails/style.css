@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-size: cover;
+    height: 100vh;
+    color: #000000;
+}
+
+.movies{
+    display: flex;
+    width: 80%;
+    gap: 50px;
+    
+}
+
+.movie-photo{
+    height: 400px;
+    margin-top: 70px;
+}
+.info{
+    font-size: 40px;
+}
+.info-overview{
+    font-size: 20px;
+    width: 80%;
+    font-weight: 400;
+}
+.info-date{
+    opacity: .5;
+    font-weight: 400;
+    font-size: 18px;
+    margin-top: 50px;
+}
